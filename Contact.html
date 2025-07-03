@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <style>
+        body{background-color: azure;}
+        .navbar {
+            background-color: black;
+            overflow: hidden;
+                 }
+        .navbar a{
+            float:left ;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            padding: 14px 20px;
+            text-decoration: none;
+                }
+    </style>
+
+    <head>
+        <title>My contact</title>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+        </div>
+
+        <form action="mailto:maleyalui1@gmail.com" method="get" enctype="text/plain">
+            <label for="order-name">Name</label><br>
+            <input type="text" name="order-name" id="order-name"><br><br>
+            
+            <label for="order-email">Email</label><br>
+            <input type="email" name="order-email" id="order-email"><br><br>
+
+            <label for="">Messege</label><br>
+
+            <textarea name="messege" id="messege" placeholder="Your comment"></textarea><br>
+            <input type="submit" value="send">
+
+        </form>
+        
+    </body>
+</html>
